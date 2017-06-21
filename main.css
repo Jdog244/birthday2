@@ -1,0 +1,48 @@
+body {
+    background-color: lime;
+    font-family: sans-serif;
+}
+
+#title{
+    padding-left: 450px;
+    border-bottom-color: lime;
+    background-color: red;
+    color: aqua;
+}
+
+#faq{
+    padding-top: 50px;
+    position: absolute;
+}
+
+#SPINNERFACE{
+    position: absolute;
+    padding-left: 700px;
+    padding-top: 40px;
+}
+
+.SPINNERFACE{
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    width: 300px;
+    height: 400px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+
+
+#Info{
+    position: center;
+    padding-top: 200px;
+    padding-left: 700px;
+    color: red;
+    font-size: 28px;
+}
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
